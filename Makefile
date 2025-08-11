@@ -13,7 +13,7 @@ INC_DIR     := header
 BUILD_DIR   := build
 
 # Files
-SRC         := $(SRC_DIR)/new_main.c $(SRC_DIR)/screen.c
+SRC         := $(SRC_DIR)/main.c $(SRC_DIR)/screen.c
 ELF         := $(BUILD_DIR)/main.elf
 BIN         := $(BUILD_DIR)/main.bin
 HEADER_SRC  := $(INC_DIR)/header.bin   # stays in repo
